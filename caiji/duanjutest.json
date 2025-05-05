@@ -1,13 +1,118 @@
 {
   "sites": [
     {
+      "key": "豆瓣资源",
+      "name": "短剧豆瓣资源",
+      "type": 0,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+        "重生民国",
+        "穿越现代",
+        "反转爽剧",
+        "言情总裁",
+        "现代都市",
+        "古装仙侠",
+        "悬疑烧脑"
+      ]
+    },
+    {
+      "key": "iKun资源",
+      "name": "iKun资源",
+      "type": 0,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "连续剧",
+        "综艺",
+        "动漫",
+        "体育"
+      ]
+    },
+    {
+      "key": "U酷资源网",
+      "name": "U酷资源网",
+      "type": 1,
+      "api": " https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "短剧",
+        "电视剧",
+        "电影",
+        "动漫",
+        "泰剧",
+        "韩剧",
+        "国产剧",
+        "港澳剧",
+        "台湾剧",
+        "欧美剧",
+        "日剧"
+      ]
+    },
+    {
       "key": "华短剧",
-      "name": "短剧",
+      "name": "华短剧",
       "type": 0,
       "api": "https://cjhwba.com/api.php/provide/vod/at/xml/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
+      "filterable": 1,
+      "categories": [
+        "短剧",
+        "电影",
+        "国产剧",
+        "韩剧",
+        "欧美剧",
+        "泰剧",
+        "动漫",
+        "综艺",
+        "台剧",
+        "日剧",
+        "港剧",
+        "新马剧",
+        "其他剧"
+      ]
+    },
+    {
+      "key": "金鹰资源",
+      "name": "金鹰资源",
+      "type": 0,
+      "api": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "短剧",
+        "电视剧",
+        "电影",
+        "综艺",
+        "体育赛事",
+        "动漫"
+      ]
+    },
+    {
+      "key": "hdzyk,高清资源库",
+      "name": "hdzyk,高清资源库",
+      "type": 1,
+      "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "连续剧",
+        "综艺",
+        "动漫",
+        "短剧大全",
+        "体育"
+      ]
     }
   ],
   "parses": [
